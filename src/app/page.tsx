@@ -67,7 +67,7 @@ export default function LandingPage() {
           href: "#features",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/puff-brown-smoke_23-2147734829.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/puff-brown-smoke_23-2147734829.jpg?_wi=1"
       imageAlt="Luxury interior design marble textures"
       mediaAnimation="blur-reveal"
       avatars={[
@@ -167,7 +167,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/puff-brown-smoke_23-2147734829.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/puff-brown-smoke_23-2147734829.jpg?_wi=2",
           imageAlt: "luxury service quality icon",
         },
         {
@@ -209,7 +209,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-looking-through-windows_23-2148424385.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-looking-through-windows_23-2148424385.jpg?_wi=1",
           imageAlt: "luxury service quality icon",
         },
       ]}
@@ -262,7 +262,7 @@ export default function LandingPage() {
           id: "t1",
           name: "Julian Thorne",
           role: "Creative Director",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-looking-through-windows_23-2148424385.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-looking-through-windows_23-2148424385.jpg?_wi=2",
         },
         {
           id: "t2",
