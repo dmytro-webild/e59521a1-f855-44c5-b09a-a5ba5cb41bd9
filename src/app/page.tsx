@@ -34,21 +34,13 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Experience",
-          id: "about",
-        },
+          name: "Experience",          id: "about"},
         {
-          name: "Services",
-          id: "features",
-        },
+          name: "Services",          id: "features"},
         {
-          name: "Team",
-          id: "team",
-        },
+          name: "Team",          id: "team"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Aura Luxury"
     />
@@ -57,63 +49,40 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboard
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Defining Modern Luxury"
       description="Exquisite craftsmanship meets sophisticated design. We curate bespoke experiences for the most discerning clientele."
       buttons={[
         {
-          text: "Explore Services",
-          href: "#features",
-        },
+          text: "Explore Services",          href: "#features"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/puff-brown-smoke_23-2147734829.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/puff-brown-smoke_23-2147734829.jpg"
       imageAlt="Luxury interior design marble textures"
       mediaAnimation="blur-reveal"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/golden-luxurious-marble-texture-design_23-2149379684.jpg",
-          alt: "Golden luxurious marble texture design",
-        },
+          src: "http://img.b2bpic.net/free-photo/golden-luxurious-marble-texture-design_23-2149379684.jpg",          alt: "Golden luxurious marble texture design"},
         {
-          src: "http://img.b2bpic.net/free-photo/copy-space-plain-white-concrete-surface-background_23-2148402376.jpg",
-          alt: "Copy space plain white concrete surface background",
-        },
+          src: "http://img.b2bpic.net/free-photo/copy-space-plain-white-concrete-surface-background_23-2148402376.jpg",          alt: "Copy space plain white concrete surface background"},
         {
-          src: "http://img.b2bpic.net/free-photo/still-life-putting-up-decorative-vinyls_23-2149683442.jpg",
-          alt: "Still life of putting up decorative vinyls",
-        },
+          src: "http://img.b2bpic.net/free-photo/still-life-putting-up-decorative-vinyls_23-2149683442.jpg",          alt: "Still life of putting up decorative vinyls"},
         {
-          src: "http://img.b2bpic.net/free-photo/top-view-concrete-surface_23-2148795856.jpg",
-          alt: "Top view of concrete surface",
-        },
+          src: "http://img.b2bpic.net/free-photo/top-view-concrete-surface_23-2148795856.jpg",          alt: "Top view of concrete surface"},
         {
-          src: "http://img.b2bpic.net/free-photo/front-view-black-gold-lamp-designed-decorated-exquisite-white-background_140725-15866.jpg",
-          alt: "A front view black-gold lamp designed",
-        },
+          src: "http://img.b2bpic.net/free-photo/front-view-black-gold-lamp-designed-decorated-exquisite-white-background_140725-15866.jpg",          alt: "A front view black-gold lamp designed"},
       ]}
       avatarText="Trusted by industry leaders globally"
       marqueeItems={[
         {
-          type: "text",
-          text: "Craftsmanship",
-        },
+          type: "text",          text: "Craftsmanship"},
         {
-          type: "text",
-          text: "Innovation",
-        },
+          type: "text",          text: "Innovation"},
         {
-          type: "text",
-          text: "Sophistication",
-        },
+          type: "text",          text: "Sophistication"},
         {
-          type: "text",
-          text: "Precision",
-        },
+          type: "text",          text: "Precision"},
         {
-          type: "text",
-          text: "Exclusivity",
-        },
+          type: "text",          text: "Exclusivity"},
       ]}
     />
   </div>
@@ -125,19 +94,13 @@ export default function LandingPage() {
       metrics={[
         {
           icon: Award,
-          label: "Years Experience",
-          value: "25+",
-        },
+          label: "Years Experience",          value: "25+"},
         {
           icon: Star,
-          label: "Projects Completed",
-          value: "500+",
-        },
+          label: "Projects Completed",          value: "500+"},
         {
           icon: Shield,
-          label: "Client Retention",
-          value: "98%",
-        },
+          label: "Client Retention",          value: "98%"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -150,67 +113,43 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Bespoke Design",
-          description: "Customized luxury concepts tailored to your exact specifications.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-vector/best-quality-high-premium-value-superior-brands-individual-labels-with-royal-crown-emblems-collection-isolated-vector-illustration_1284-2752.jpg",
-            imageAlt: "Bespoke design",
-          },
+          title: "Bespoke Design",          description: "Customized luxury concepts tailored to your exact specifications.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-vector/best-quality-high-premium-value-superior-brands-individual-labels-with-royal-crown-emblems-collection-isolated-vector-illustration_1284-2752.jpg",            imageAlt: "Bespoke design"},
           items: [
             {
               icon: Sparkles,
-              text: "Personalized",
-            },
+              text: "Personalized"},
             {
               icon: CheckCircle,
-              text: "High Quality",
-            },
+              text: "High Quality"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/puff-brown-smoke_23-2147734829.jpg?_wi=2",
-          imageAlt: "luxury service quality icon",
         },
         {
-          title: "Expert Consultation",
-          description: "Professional guidance from industry pioneers.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/young-female-client-store-is-trying-different-frames-her-small-canvas-is-talking-with-attractive-male-employee_662251-239.jpg",
-            imageAlt: "Consultation",
-          },
+          title: "Expert Consultation",          description: "Professional guidance from industry pioneers.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/young-female-client-store-is-trying-different-frames-her-small-canvas-is-talking-with-attractive-male-employee_662251-239.jpg",            imageAlt: "Consultation"},
           items: [
             {
               icon: User,
-              text: "Expertise",
-            },
+              text: "Expertise"},
             {
               icon: Briefcase,
-              text: "Strategy",
-            },
+              text: "Strategy"},
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/fabric-texture-background_1385-1192.jpg",
-          imageAlt: "luxury service quality icon",
         },
         {
-          title: "Seamless Execution",
-          description: "Flawless delivery and project management.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/high-angle-clay-plate-with-pattern_23-2148878470.jpg",
-            imageAlt: "Execution",
-          },
+          title: "Seamless Execution",          description: "Flawless delivery and project management.",          media: {
+            imageSrc: "http://img.b2bpic.net/free-photo/high-angle-clay-plate-with-pattern_23-2148878470.jpg",            imageAlt: "Execution"},
           items: [
             {
               icon: Settings,
-              text: "Process",
-            },
+              text: "Process"},
             {
               icon: Zap,
-              text: "Speed",
-            },
+              text: "Speed"},
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-looking-through-windows_23-2148424385.jpg?_wi=1",
-          imageAlt: "luxury service quality icon",
         },
       ]}
       title="Our Signature Offerings"
@@ -225,26 +164,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "15",
-          title: "Countries",
-          description: "Active global presence",
-          imageSrc: "http://img.b2bpic.net/free-photo/chinese-new-year-2021-minimalist-room_23-2148763956.jpg",
-        },
+          id: "m1",          value: "15",          title: "Countries",          description: "Active global presence",          imageSrc: "http://img.b2bpic.net/free-photo/chinese-new-year-2021-minimalist-room_23-2148763956.jpg"},
         {
-          id: "m2",
-          value: "120",
-          title: "Awards",
-          description: "Industry recognized excellence",
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-modern-female-talking-phone_23-2148415855.jpg",
-        },
+          id: "m2",          value: "120",          title: "Awards",          description: "Industry recognized excellence",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-modern-female-talking-phone_23-2148415855.jpg"},
         {
-          id: "m3",
-          value: "5k",
-          title: "Projects",
-          description: "Successful completions",
-          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-lifestyle-rich-woman_52683-97508.jpg",
-        },
+          id: "m3",          value: "5k",          title: "Projects",          description: "Successful completions",          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-lifestyle-rich-woman_52683-97508.jpg"},
       ]}
       title="Global Impact"
       description="Measuring our success by the satisfaction of our clients worldwide."
@@ -259,23 +183,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       members={[
         {
-          id: "t1",
-          name: "Julian Thorne",
-          role: "Creative Director",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-looking-through-windows_23-2148424385.jpg?_wi=2",
-        },
+          id: "t1",          name: "Julian Thorne",          role: "Creative Director",          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-looking-through-windows_23-2148424385.jpg"},
         {
-          id: "t2",
-          name: "Elena Vance",
-          role: "Lead Architect",
-          imageSrc: "http://img.b2bpic.net/free-photo/interior-designer-working-out-office_23-2150379267.jpg",
-        },
+          id: "t2",          name: "Elena Vance",          role: "Lead Architect",          imageSrc: "http://img.b2bpic.net/free-photo/interior-designer-working-out-office_23-2150379267.jpg"},
         {
-          id: "t3",
-          name: "Marcus Reid",
-          role: "Client Relations",
-          imageSrc: "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-isolated-dark-background_613910-17885.jpg",
-        },
+          id: "t3",          name: "Marcus Reid",          role: "Client Relations",          imageSrc: "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-isolated-dark-background_613910-17885.jpg"},
       ]}
       title="The Masters Behind Aura"
       description="Meet our team of experts dedicated to your success."
@@ -287,30 +199,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sophia L.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-two-young-businesswomen-having-meeting-shaking-hands-hotel-lobby-business-travel-concept_58466-11961.jpg",
-        },
+          id: "1",          name: "Sophia L.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-two-young-businesswomen-having-meeting-shaking-hands-hotel-lobby-business-travel-concept_58466-11961.jpg"},
         {
-          id: "2",
-          name: "James M.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4753.jpg",
-        },
+          id: "2",          name: "James M.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-business-woman_158595-4753.jpg"},
         {
-          id: "3",
-          name: "Linda K.",
-          imageSrc: "http://img.b2bpic.net/free-photo/clothing-store-worker-helping-woman-choose-from-stylish-selection-clothes_482257-109184.jpg",
-        },
+          id: "3",          name: "Linda K.",          imageSrc: "http://img.b2bpic.net/free-photo/clothing-store-worker-helping-woman-choose-from-stylish-selection-clothes_482257-109184.jpg"},
         {
-          id: "4",
-          name: "Robert B.",
-          imageSrc: "http://img.b2bpic.net/free-photo/middle-age-businessman-smiling-happy-standing-city_839833-25759.jpg",
-        },
+          id: "4",          name: "Robert B.",          imageSrc: "http://img.b2bpic.net/free-photo/middle-age-businessman-smiling-happy-standing-city_839833-25759.jpg"},
         {
-          id: "5",
-          name: "Alice T.",
-          imageSrc: "http://img.b2bpic.net/free-photo/gorgeous-smiling-blonde-fashion-model-sits-white-suit-soft-armchair_8353-5476.jpg",
-        },
+          id: "5",          name: "Alice T.",          imageSrc: "http://img.b2bpic.net/free-photo/gorgeous-smiling-blonde-fashion-model-sits-white-suit-soft-armchair_8353-5476.jpg"},
       ]}
       cardTitle="Client Voices"
       cardTag="Testimonials"
@@ -323,14 +220,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Microsoft",
-        "Google",
-        "Apple",
-        "Tesla",
-        "Amazon",
-        "Nike",
-        "Adidas",
-      ]}
+        "Microsoft",        "Google",        "Apple",        "Tesla",        "Amazon",        "Nike",        "Adidas"]}
       title="Trusted Partners"
       description="Leading global brands trust us to deliver exceptional results."
     />
@@ -341,20 +231,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "How do we start?",
-          content: "Simply fill out our contact form and our team will reach out.",
-        },
+          id: "1",          title: "How do we start?",          content: "Simply fill out our contact form and our team will reach out."},
         {
-          id: "2",
-          title: "Is the design bespoke?",
-          content: "Every project is uniquely crafted to your vision.",
-        },
+          id: "2",          title: "Is the design bespoke?",          content: "Every project is uniquely crafted to your vision."},
         {
-          id: "3",
-          title: "Do you work globally?",
-          content: "Yes, we operate internationally.",
-        },
+          id: "3",          title: "Do you work globally?",          content: "Yes, we operate internationally."},
       ]}
       sideTitle="Common Questions"
       faqsAnimation="slide-up"
@@ -365,8 +246,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Get In Touch"
       title="Start Your Journey"
       description="Connect with us to begin crafting your next premium project."
@@ -381,25 +261,17 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Services",
-              href: "#features",
-            },
+              label: "Services",              href: "#features"},
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
           ],
         },
         {
           items: [
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
             {
-              label: "Privacy",
-              href: "#",
-            },
+              label: "Privacy",              href: "#"},
           ],
         },
       ]}
